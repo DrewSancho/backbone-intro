@@ -1,0 +1,31 @@
+@import "components/normalize";
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.images {
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    height: 480px;
+    width: 640px;
+    padding: 40px;
+    position: relative;
+}
+
+.likes {
+    position: absolute;
+    right: 70%;
+}
+
+.remove {
+    position: absolute;
+    left: 69%;
+}
+
+.submit {
+    position: fixed;
+    right: 80%
+}
